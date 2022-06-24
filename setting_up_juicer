@@ -1,1 +1,13 @@
+###dependencies and packages we need for juicer
+#bwa
+#cutadapt
+#java
+#
+
+#installing bwa
+#reference: https://icb.med.cornell.edu/wiki/index.php/Elementolab/BWA_tutorial
+
+
+#installing cutadapt
+sudo apt install cutadapt
 
