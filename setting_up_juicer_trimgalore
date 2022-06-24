@@ -1,0 +1,31 @@
+###dependencies and packages we need for juicer
+#bwa
+#cutadapt
+#java
+#juicer
+#fastqc 
+#conda
+##trimgalore
+
+
+#installing bwa
+#reference: https://icb.med.cornell.edu/wiki/index.php/Elementolab/BWA_tutorial
+
+
+#installing cutadapt
+#reference: https://cutadapt.readthedocs.io/en/stable/installation.html
+sudo apt install cutadapt
+
+#installing juicer
+
+#installing fastqc
+#reference: https://sourceforge.net/projects/fastqc.mirror/ 
+
+#installing conda
+#
+
+#installing trimgalore
+#reference: https://bioconda.github.io/recipes/trim-galore/README.html 
+
+
+
