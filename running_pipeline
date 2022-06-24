@@ -1,0 +1,8 @@
+#####notebook of the commands run to analyze microC data
+
+#running trimgalore 
+##run in the home directory where fastq files were found 
+
+trim_galore --paired <$filename>_R1.fastq <$filename>_R2.fastq
+
+##running bwa to produce index files from the reference genome
