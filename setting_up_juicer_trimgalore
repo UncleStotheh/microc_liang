@@ -1,8 +1,9 @@
 ###dependencies and packages we need for juicer
-#bwa
-#cutadapt
-#java
-#juicer
+#bwa -- done
+#cutadapt -- done
+#java -- done
+#cuda
+#juicer 
 #fastqc 
 #conda
 ##trimgalore
@@ -27,5 +28,6 @@ sudo apt install cutadapt
 #installing trimgalore
 #reference: https://bioconda.github.io/recipes/trim-galore/README.html 
 
-
+#mounting box on ubuntu -- to use as excess storage 
+#reference https://websiteforstudents.com/how-to-mount-box-on-ubuntu/
 
