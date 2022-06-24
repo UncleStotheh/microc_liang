@@ -1,0 +1,20 @@
+##input
+bwa index GRCh38_latest_genomic.fasta 
+
+###output
+[bwa_index] Pack FASTA... 24.77 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=6596861272, availableWord=476179232
+
+
+
+
+
+[bwt_gen] Finished constructing BWT in 728 iterations.
+[bwa_index] 3324.77 seconds elapse.
+[bwa_index] Update BWT... 22.14 sec
+[bwa_index] Pack forward-only FASTA... 16.52 sec
+[bwa_index] Construct SA from BWT and Occ... 1361.55 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index GRCh38_latest_genomic.fasta
+[main] Real time: 4768.149 sec; CPU: 4749.749 sec
