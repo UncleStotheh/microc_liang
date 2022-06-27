@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-exec > pairtools_output.txt 2>&1
+exec > /pairtools_output.txt 2>&1
 
 #.genome file path
 genome="$1"
@@ -8,3 +8,7 @@ aligned_sam="$2"
 #running pairtools to find ligation junctions in Micro-C (and other proximity ligation) libraries.
 
 pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path ${genome} ${aligned_sam} > parsed.pairsam
+
+#/home/user/Downloads/microc_summer2022/juicer/references/GRCh38_latest_genomic.genome
+#/home/user/Downloads/microc_summer2022/aligned.sam
+
