@@ -1,0 +1,23 @@
+###this is a list of dependencies installed to run the microC analysis pipeline
+pysam
+
+tabulate
+
+bedtools
+
+deeptools
+
+matplotlib
+
+pandas
+
+bwa
+
+pairtools
+
+samtools
+
+preseq
+
+java
+
