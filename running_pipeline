@@ -6,3 +6,7 @@
 trim_galore --paired <$filename>_R1.fastq <$filename>_R2.fastq
 
 ##running bwa to produce index files from the reference genome
+
+## running bwa mem to perform local alignment
+bwa mem -5SP -T0 -t8 ./juicer/references/GRCh38_latest_genomic.fasta ./EC1_S1_L001_R1_001_val_1.fq.gz ./EC1_S1_L001_R2_001_val_2.fq.gz -o aligned.sam
+
