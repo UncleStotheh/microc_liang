@@ -1,5 +1,7 @@
 #####notebook of the commands run to analyze microC data
 
+## reference genome from ucsc https://hgdownload.cse.ucsc.edu/goldenpath/hg38/bigZips/
+
 #running trimgalore 
 ##run in the home directory where fastq files were found 
 
