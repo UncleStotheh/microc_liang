@@ -1,0 +1,1817 @@
+#input
+cooler cload pairix -p 8 /home/user/Downloads/microc_summer2022/juicer/references/GRCh38_latest_genomic.genome:1000 mapped.pairs.gz matrix_1kb.cool
+
+#output
+INFO:cooler.cli.cload:Using 8 cores
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187365.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187369.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187370.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_167215.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187372.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187373.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187382.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187393.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187394.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187395.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187396.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187397.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187398.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187399.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187400.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187401.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187402.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187403.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187404.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187405.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187407.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187408.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187409.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187410.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187411.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187412.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187413.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187414.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187416.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187417.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187418.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187422.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187428.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187434.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187439.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187440.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187441.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187442.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187444.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187445.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187448.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187449.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187450.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187453.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187454.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187456.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187458.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187459.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187460.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187461.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187462.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187463.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187464.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187465.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187466.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187467.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187468.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187469.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187470.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187471.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187472.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187473.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187474.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187475.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187476.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187477.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187478.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187479.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187480.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187481.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187482.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187483.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187484.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187485.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187486.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187487.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187488.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187489.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187490.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187491.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187492.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187493.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187494.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187496.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_113901.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_167214.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187497.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_167220.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187500.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187502.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187503.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187510.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_012132914.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646195.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654706.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805487.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646194.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654707.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_017852928.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791753.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791758.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791759.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791754.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332687.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654708.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791757.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159988.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791767.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791766.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791763.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791765.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791762.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791764.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332690.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159987.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332689.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_017363813.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791771.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646197.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_012132916.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_012132917.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646198.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805490.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159993.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791774.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159992.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159994.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159991.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159995.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791772.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_015495301.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_015495300.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654712.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646199.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791779.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159996.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791778.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791775.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654713.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159998.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791781.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_017852930.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654714.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654715.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_012132919.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791784.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805494.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791786.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654716.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791783.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791788.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646201.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021159999.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_013171807.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791790.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332693.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332692.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_015148966.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791792.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160004.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791794.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805495.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_017363816.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791793.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805498.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160005.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805497.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160002.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791791.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646203.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_013171809.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654718.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160008.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791795.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_015148967.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654719.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332697.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160007.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160009.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332700.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_013171811.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332698.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791796.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654722.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160014.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_011332701.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160018.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_012132920.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160015.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805500.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654723.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791800.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_017363817.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107299.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791803.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805501.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791806.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791805.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791804.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_019805502.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791808.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107300.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107301.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107302.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107303.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107304.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107305.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107306.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107307.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107308.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107309.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107310.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107311.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107313.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107314.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_016107312.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791812.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791814.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791815.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646207.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_014040930.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_014040931.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_009646208.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_015148968.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160025.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_015148969.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791820.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791816.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791817.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160027.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_021160030.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791818.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654725.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_025791821.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_018654726.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187515.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187517.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187520.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315905.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315906.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187518.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187525.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187526.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187522.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315908.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187531.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571033.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187523.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187536.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187532.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187534.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187540.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187545.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187543.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187550.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187547.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315920.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315917.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187549.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187555.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187554.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315921.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187557.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_004166862.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187553.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187559.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315922.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187563.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187572.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187568.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187565.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187570.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187577.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187566.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315928.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315929.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315930.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315931.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187579.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187584.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187581.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571050.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187588.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315938.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187587.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315941.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315942.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315940.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187589.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187591.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187594.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187597.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187592.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187596.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187602.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187604.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187603.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315943.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187610.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187608.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315945.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187611.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003871092.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315953.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_167251.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315954.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187615.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187616.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315955.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187612.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315959.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315958.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187617.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315964.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315965.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187619.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187620.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571054.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315966.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187624.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315968.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187626.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315972.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003315971.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187635.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187646.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187647.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187650.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187651.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187652.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187656.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187657.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187659.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187660.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187662.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187664.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187661.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003871093.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187663.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187666.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571055.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_004504305.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187667.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187679.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_167245.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187680.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187681.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571056.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187682.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187688.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571057.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187689.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571058.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571059.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187692.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NW_003571061.2' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187693.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187636.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187637.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187638.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187639.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187640.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187641.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187642.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187643.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187644.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187645.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187668.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187669.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187670.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187671.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187672.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187673.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187674.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187675.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187676.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187677.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187683.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187684.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187685.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187686.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187687.1' in contact list file.
+  warnings.warn(
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_113949.2' in contact list file.
+  warnings.warn(
+
+INFO:cooler.create:Creating cooler at "matrix_1kb.cool::/"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.create:Binning NC_000001.11:0-124479000|*
+INFO:cooler.create:Binning NC_000001.11:124479000-248956422|*
+INFO:cooler.create:Binning NT_187361.1:0-175055|*
+INFO:cooler.create:Binning NT_187362.1:0-32032|*
+INFO:cooler.create:Binning NT_187363.1:0-127682|*
+INFO:cooler.create:Binning NT_187364.1:0-66860|*
+INFO:cooler.create:Binning NT_187366.1:0-42210|*
+INFO:cooler.create:Finished NT_187362.1:0-32032|*
+INFO:cooler.create:Binning NT_187367.1:0-176043|*
+INFO:cooler.create:Binning NT_187368.1:0-40745|*
+INFO:cooler.create:Finished NT_187364.1:0-66860|*
+INFO:cooler.create:Finished NT_187366.1:0-42210|*
+INFO:cooler.create:Binning NC_000002.12:0-127955000|*
+INFO:cooler.create:Binning NC_000002.12:127955000-242193529|*
+INFO:cooler.create:Finished NT_187368.1:0-40745|*
+INFO:cooler.create:Finished NT_187363.1:0-127682|*
+INFO:cooler.create:Binning NT_187371.1:0-153799|*
+INFO:cooler.create:Binning NC_000003.12:0-156281000|*
+INFO:cooler.create:Finished NT_187361.1:0-175055|*
+INFO:cooler.create:Binning NC_000003.12:156281000-198295559|*
+INFO:cooler.create:Finished NT_187367.1:0-176043|*
+INFO:cooler.create:Binning NC_000004.12:0-162920000|*
+INFO:cooler.create:Finished NT_187371.1:0-153799|*
+INFO:cooler.create:Binning NC_000004.12:162920000-190214555|*
+INFO:cooler.create:Finished NC_000004.12:162920000-190214555|*
+INFO:cooler.create:Binning NT_113793.3:0-209709|*
+INFO:cooler.create:Finished NT_113793.3:0-209709|*
+INFO:cooler.create:Binning NC_000005.10:0-170706000|*
+INFO:cooler.create:Finished NC_000003.12:156281000-198295559|*
+INFO:cooler.create:Binning NC_000005.10:170706000-181538259|*
+INFO:cooler.create:Finished NC_000005.10:170706000-181538259|*
+INFO:cooler.create:Binning NT_113948.1:0-92689|*
+INFO:cooler.create:Finished NT_113948.1:0-92689|*
+INFO:cooler.create:Binning NC_000006.12:0-170805979|*
+INFO:cooler.create:Finished NC_000002.12:127955000-242193529|*
+INFO:cooler.create:Binning NC_000007.14:0-159345973|*
+INFO:cooler.create:Finished NC_000001.11:124479000-248956422|*
+INFO:cooler.create:Binning NC_000008.11:0-145138636|*
+INFO:cooler.create:Finished NC_000002.12:0-127955000|*
+INFO:cooler.create:Binning NC_000009.12:0-138394717|*
+INFO:cooler.create:Finished NC_000001.11:0-124479000|*
+INFO:cooler.create:Binning NT_187374.1:0-176845|*
+INFO:cooler.create:Finished NT_187374.1:0-176845|*
+INFO:cooler.create:Binning NT_187375.1:0-39050|*
+INFO:cooler.create:Finished NT_187375.1:0-39050|*
+INFO:cooler.create:Binning NC_000010.11:0-133797422|*
+INFO:cooler.create:Finished NC_000003.12:0-156281000|*
+INFO:cooler.create:Binning NC_000011.10:0-135086622|*
+INFO:cooler.create:Finished NC_000004.12:0-162920000|*
+INFO:cooler.create:Binning NC_000012.12:0-133275309|*
+INFO:cooler.create:Finished NC_000005.10:0-170706000|*
+INFO:cooler.create:Binning NC_000013.11:0-114364328|*
+INFO:cooler.create:Finished NC_000006.12:0-170805979|*
+INFO:cooler.create:Binning NC_000014.9:0-107043718|*
+INFO:cooler.create:Finished NC_000010.11:0-133797422|*
+INFO:cooler.create:Binning NT_113796.3:0-201709|*
+INFO:cooler.create:Finished NT_113796.3:0-201709|*
+INFO:cooler.create:Binning NT_167219.1:0-211173|*
+INFO:cooler.create:Finished NC_000009.12:0-138394717|*
+INFO:cooler.create:Finished NT_167219.1:0-211173|*
+INFO:cooler.create:Binning NT_187377.1:0-194050|*
+INFO:cooler.create:Binning NT_113888.1:0-191469|*
+INFO:cooler.create:Finished NT_187377.1:0-194050|*
+INFO:cooler.create:Binning NT_187378.1:0-38115|*
+INFO:cooler.create:Finished NT_113888.1:0-191469|*
+INFO:cooler.create:Binning NT_187379.1:0-39555|*
+INFO:cooler.create:Finished NT_187378.1:0-38115|*
+INFO:cooler.create:Binning NT_187380.1:0-172810|*
+INFO:cooler.create:Finished NT_187379.1:0-39555|*
+INFO:cooler.create:Binning NT_187381.1:0-43739|*
+INFO:cooler.create:Finished NT_187381.1:0-43739|*
+INFO:cooler.create:Binning NC_000015.10:0-101991189|*
+INFO:cooler.create:Finished NT_187380.1:0-172810|*
+INFO:cooler.create:Binning NC_000016.10:0-90338345|*
+INFO:cooler.create:Finished NC_000008.11:0-145138636|*
+INFO:cooler.create:Binning NT_187383.1:0-1872759|*
+INFO:cooler.create:Finished NT_187383.1:0-1872759|*
+INFO:cooler.create:Binning NC_000017.11:0-83257441|*
+INFO:cooler.create:Finished NC_000007.14:0-159345973|*
+INFO:cooler.create:Binning NT_113930.2:0-185591|*
+INFO:cooler.create:Finished NT_113930.2:0-185591|*
+INFO:cooler.create:Binning NT_187384.1:0-280839|*
+INFO:cooler.create:Finished NT_187384.1:0-280839|*
+INFO:cooler.create:Binning NT_187385.1:0-112551|*
+INFO:cooler.create:Finished NT_187385.1:0-112551|*
+INFO:cooler.create:Binning NC_000018.10:0-80373285|*
+INFO:cooler.create:Finished NC_000012.12:0-133275309|*
+INFO:cooler.create:Binning NC_000019.10:0-58617616|*
+INFO:cooler.create:Finished NC_000011.10:0-135086622|*
+INFO:cooler.create:Binning NC_000020.11:0-64444167|*
+INFO:cooler.create:Finished NC_000013.11:0-114364328|*
+INFO:cooler.create:Binning NC_000021.9:0-46709983|*
+INFO:cooler.create:Finished NC_000014.9:0-107043718|*
+INFO:cooler.create:Binning NC_000022.11:0-50818468|*
+INFO:cooler.create:Finished NC_000019.10:0-58617616|*
+INFO:cooler.create:Binning NT_187386.1:0-150754|*
+INFO:cooler.create:Finished NT_187386.1:0-150754|*
+INFO:cooler.create:Binning NT_187387.1:0-41543|*
+INFO:cooler.create:Finished NT_187387.1:0-41543|*
+INFO:cooler.create:Binning NT_187388.1:0-179772|*
+INFO:cooler.create:Finished NT_187388.1:0-179772|*
+INFO:cooler.create:Binning NT_187390.1:0-42811|*
+INFO:cooler.create:Finished NT_187390.1:0-42811|*
+INFO:cooler.create:Binning NT_187391.1:0-181920|*
+INFO:cooler.create:Finished NC_000021.9:0-46709983|*
+INFO:cooler.create:Finished NT_187391.1:0-181920|*
+INFO:cooler.create:Binning NT_187392.1:0-103838|*
+INFO:cooler.create:Binning NC_000023.11:0-156040895|*
+INFO:cooler.create:Finished NT_187392.1:0-103838|*
+INFO:cooler.create:Binning NC_000024.10:0-57227415|*
+INFO:cooler.create:Finished NC_000018.10:0-80373285|*
+INFO:cooler.create:Binning NT_187406.1:0-12399|*
+INFO:cooler.create:Finished NT_187406.1:0-12399|*
+INFO:cooler.create:Binning NT_187415.1:0-2043|*
+INFO:cooler.create:Finished NT_187415.1:0-2043|*
+INFO:cooler.create:Binning NT_187419.1:0-1361|*
+INFO:cooler.create:Finished NT_187419.1:0-1361|*
+INFO:cooler.create:Binning NT_187420.1:0-392061|*
+INFO:cooler.create:Finished NT_187420.1:0-392061|*
+INFO:cooler.create:Binning NT_187421.1:0-1233|*
+INFO:cooler.create:Finished NT_187421.1:0-1233|*
+INFO:cooler.create:Binning NT_187423.1:0-3920|*
+INFO:cooler.create:Finished NT_187423.1:0-3920|*
+INFO:cooler.create:Binning NT_187424.1:0-92983|*
+INFO:cooler.create:Finished NT_187424.1:0-92983|*
+INFO:cooler.create:Binning NT_187425.1:0-112505|*
+INFO:cooler.create:Finished NT_187425.1:0-112505|*
+INFO:cooler.create:Binning NT_187426.1:0-4055|*
+INFO:cooler.create:Finished NT_187426.1:0-4055|*
+INFO:cooler.create:Binning NT_187427.1:0-2415|*
+INFO:cooler.create:Finished NT_187427.1:0-2415|*
+INFO:cooler.create:Binning NT_187429.1:0-2186|*
+INFO:cooler.create:Finished NT_187429.1:0-2186|*
+INFO:cooler.create:Binning NT_187430.1:0-1951|*
+INFO:cooler.create:Finished NT_187430.1:0-1951|*
+INFO:cooler.create:Binning NT_187431.1:0-1300|*
+INFO:cooler.create:Finished NT_187431.1:0-1300|*
+INFO:cooler.create:Binning NT_187432.1:0-22689|*
+INFO:cooler.create:Finished NT_187432.1:0-22689|*
+INFO:cooler.create:Binning NT_187433.1:0-138126|*
+INFO:cooler.create:Finished NT_187433.1:0-138126|*
+INFO:cooler.create:Binning NT_187435.1:0-8127|*
+INFO:cooler.create:Finished NT_187435.1:0-8127|*
+INFO:cooler.create:Binning NT_187436.1:0-6361|*
+INFO:cooler.create:Finished NT_187436.1:0-6361|*
+INFO:cooler.create:Binning NT_187437.1:0-5353|*
+INFO:cooler.create:Finished NT_187437.1:0-5353|*
+INFO:cooler.create:Binning NT_187438.1:0-3253|*
+INFO:cooler.create:Finished NT_187438.1:0-3253|*
+INFO:cooler.create:Binning NT_187443.1:0-91309|*
+INFO:cooler.create:Finished NT_187443.1:0-91309|*
+INFO:cooler.create:Binning NT_187446.1:0-1400|*
+INFO:cooler.create:Finished NT_187446.1:0-1400|*
+INFO:cooler.create:Binning NT_187447.1:0-2969|*
+INFO:cooler.create:Finished NT_187447.1:0-2969|*
+INFO:cooler.create:Binning NT_187451.1:0-44474|*
+INFO:cooler.create:Finished NT_187451.1:0-44474|*
+INFO:cooler.create:Finished NC_000016.10:0-90338345|*
+INFO:cooler.create:Binning NT_187452.1:0-4685|*
+INFO:cooler.create:Finished NT_187452.1:0-4685|*
+INFO:cooler.create:Binning NT_187455.1:0-6158|*
+INFO:cooler.create:Finished NT_187455.1:0-6158|*
+INFO:cooler.create:Binning NT_187457.1:0-5796|*
+INFO:cooler.create:Finished NT_187457.1:0-5796|*
+INFO:cooler.create:Binning NT_187495.1:0-7992|*
+INFO:cooler.create:Finished NT_187495.1:0-7992|*
+INFO:cooler.create:Binning NT_167213.1:0-179198|*
+INFO:cooler.create:Binning NT_167218.1:0-179693|*
+INFO:cooler.create:Finished NT_167213.1:0-179198|*
+INFO:cooler.create:Binning NT_167208.1:0-164239|*
+INFO:cooler.create:Finished NT_167218.1:0-179693|*
+INFO:cooler.create:Binning NT_187498.1:0-210658|*
+INFO:cooler.create:Finished NT_167208.1:0-164239|*
+INFO:cooler.create:Binning NT_187499.1:0-168472|*
+INFO:cooler.create:Finished NT_187498.1:0-210658|*
+INFO:cooler.create:Binning NT_187501.1:0-66486|*
+INFO:cooler.create:Finished NT_187501.1:0-66486|*
+INFO:cooler.create:Finished NC_000017.11:0-83257441|*
+INFO:cooler.create:Binning NT_187504.1:0-158759|*
+INFO:cooler.create:Finished NT_187499.1:0-168472|*
+INFO:cooler.create:Binning NT_187505.1:0-148850|*
+INFO:cooler.create:Binning NT_187506.1:0-150742|*
+INFO:cooler.create:Finished NT_187504.1:0-158759|*
+INFO:cooler.create:Binning NT_187508.1:0-62944|*
+INFO:cooler.create:Finished NT_187505.1:0-148850|*
+INFO:cooler.create:Binning NT_187509.1:0-40191|*
+INFO:cooler.create:Finished NT_187508.1:0-62944|*
+INFO:cooler.create:Finished NT_187509.1:0-40191|*
+INFO:cooler.create:Binning NT_187511.1:0-79590|*
+INFO:cooler.create:Binning NT_187512.1:0-71251|*
+INFO:cooler.create:Finished NT_187506.1:0-150742|*
+INFO:cooler.create:Binning NT_167209.1:0-137718|*
+INFO:cooler.create:Finished NT_187511.1:0-79590|*
+INFO:cooler.create:Binning NT_187513.1:0-186739|*
+INFO:cooler.create:Finished NT_187512.1:0-71251|*
+INFO:cooler.create:Binning NT_167211.2:0-176608|*
+INFO:cooler.create:Finished NT_167209.1:0-137718|*
+INFO:cooler.create:Binning NT_113889.1:0-161147|*
+INFO:cooler.create:Finished NT_187513.1:0-186739|*
+INFO:cooler.create:Binning NW_015495298.1:0-278659|*
+INFO:cooler.create:Finished NT_167211.2:0-176608|*
+INFO:cooler.create:Binning NW_025791756.1:0-1572686|*
+INFO:cooler.create:Finished NT_113889.1:0-161147|*
+INFO:cooler.create:Binning NW_011332688.1:0-305542|*
+INFO:cooler.create:Finished NW_015495298.1:0-278659|*
+INFO:cooler.create:Binning NW_014040926.1:0-349938|*
+INFO:cooler.create:Finished NW_011332688.1:0-305542|*
+INFO:cooler.create:Binning NW_014040925.1:0-141019|*
+INFO:cooler.create:Finished NW_014040925.1:0-141019|*
+INFO:cooler.create:Binning NW_009646196.1:0-122022|*
+INFO:cooler.create:Finished NW_014040926.1:0-349938|*
+INFO:cooler.create:Binning NW_014040927.1:0-212205|*
+INFO:cooler.create:Finished NW_009646196.1:0-122022|*
+INFO:cooler.create:Binning NW_025791755.1:0-335159|*
+INFO:cooler.create:Finished NW_014040927.1:0-212205|*
+INFO:cooler.create:Binning NW_025791768.1:0-174385|*
+INFO:cooler.create:Finished NW_025791768.1:0-174385|*
+INFO:cooler.create:Finished NW_025791755.1:0-335159|*
+INFO:cooler.create:Binning NW_012132915.1:0-481245|*
+INFO:cooler.create:Binning NW_025791760.1:0-431782|*
+INFO:cooler.create:Finished NW_025791760.1:0-431782|*
+INFO:cooler.create:Binning NW_018654709.1:0-181658|*
+INFO:cooler.create:Finished NW_025791756.1:0-1572686|*
+INFO:cooler.create:Finished NW_012132915.1:0-481245|*
+INFO:cooler.create:Binning NW_025791761.1:0-535251|*
+INFO:cooler.create:Binning NW_015495299.1:0-535088|*
+INFO:cooler.create:Finished NW_018654709.1:0-181658|*
+INFO:cooler.create:Binning NW_018654710.1:0-140361|*
+INFO:cooler.create:Finished NW_018654710.1:0-140361|*
+INFO:cooler.create:Binning NW_025791770.1:0-301310|*
+INFO:cooler.create:Finished NW_025791761.1:0-535251|*
+INFO:cooler.create:Finished NW_015495299.1:0-535088|*
+INFO:cooler.create:Binning NW_011332691.1:0-415308|*
+INFO:cooler.create:Binning NW_021159989.1:0-215443|*
+INFO:cooler.create:Finished NW_025791770.1:0-301310|*
+INFO:cooler.create:Binning NW_018654711.1:0-175849|*
+INFO:cooler.create:Finished NW_021159989.1:0-215443|*
+INFO:cooler.create:Binning NW_019805491.1:0-105527|*
+INFO:cooler.create:Finished NW_018654711.1:0-175849|*
+INFO:cooler.create:Binning NW_019805492.1:0-195063|*
+INFO:cooler.create:Finished NW_019805491.1:0-105527|*
+INFO:cooler.create:Binning NW_019805489.1:0-197752|*
+INFO:cooler.create:Finished NW_011332691.1:0-415308|*
+INFO:cooler.create:Binning NW_019805488.1:0-164041|*
+INFO:cooler.create:Finished NW_019805492.1:0-195063|*
+INFO:cooler.create:Binning NW_025791769.1:0-469342|*
+INFO:cooler.create:Finished NW_019805489.1:0-197752|*
+INFO:cooler.create:Finished NW_019805488.1:0-164041|*
+INFO:cooler.create:Binning NW_021159990.1:0-235734|*
+INFO:cooler.create:Binning NW_013171799.1:0-90922|*
+INFO:cooler.create:Finished NW_013171799.1:0-90922|*
+INFO:cooler.create:Binning NW_013171800.1:0-163749|*
+INFO:cooler.create:Finished NW_021159990.1:0-235734|*
+INFO:cooler.create:Binning NW_013171801.1:0-236512|*
+INFO:cooler.create:Finished NW_013171800.1:0-163749|*
+INFO:cooler.create:Binning NW_017363814.1:0-420675|*
+INFO:cooler.create:Finished NW_025791769.1:0-469342|*
+INFO:cooler.create:Binning NW_025791773.1:0-113364|*
+INFO:cooler.create:Finished NW_013171801.1:0-236512|*
+INFO:cooler.create:Binning NW_025791777.1:0-2101585|*
+INFO:cooler.create:Finished NW_025791773.1:0-113364|*
+INFO:cooler.create:Binning NW_025791776.1:0-208405|*
+INFO:cooler.create:Finished NC_000020.11:0-64444167|*
+INFO:cooler.create:Binning NW_016107297.1:0-362221|*
+INFO:cooler.create:Finished NW_025791776.1:0-208405|*
+INFO:cooler.create:Finished NW_017363814.1:0-420675|*
+INFO:cooler.create:Binning NW_016107298.1:0-673059|*
+INFO:cooler.create:Binning NW_013171803.1:0-82315|*
+INFO:cooler.create:Finished NW_013171803.1:0-82315|*
+INFO:cooler.create:Binning NW_025791780.1:0-383128|*
+INFO:cooler.create:Finished NW_016107297.1:0-362221|*
+INFO:cooler.create:Binning NW_012132918.1:0-320750|*
+INFO:cooler.create:Finished NW_025791780.1:0-383128|*
+INFO:cooler.create:Binning NW_009646200.1:0-268330|*
+INFO:cooler.create:Finished NW_012132918.1:0-320750|*
+INFO:cooler.create:Binning NW_013171802.1:0-245716|*
+INFO:cooler.create:Finished NW_016107298.1:0-673059|*
+INFO:cooler.create:Binning NW_017363815.1:0-139427|*
+INFO:cooler.create:Finished NW_009646200.1:0-268330|*
+INFO:cooler.create:Binning NW_021159997.1:0-73265|*
+INFO:cooler.create:Finished NW_017363815.1:0-139427|*
+INFO:cooler.create:Binning NW_019805493.1:0-172555|*
+INFO:cooler.create:Finished NW_013171802.1:0-245716|*
+INFO:cooler.create:Binning NW_017852929.1:0-142129|*
+INFO:cooler.create:Finished NW_021159997.1:0-73265|*
+INFO:cooler.create:Binning NW_025791785.1:0-429744|*
+INFO:cooler.create:Finished NW_019805493.1:0-172555|*
+INFO:cooler.create:Binning NW_018654717.1:0-6367528|*
+INFO:cooler.create:Finished NW_017852929.1:0-142129|*
+INFO:cooler.create:Binning NW_017852932.1:0-265876|*
+INFO:cooler.create:Finished NW_017852932.1:0-265876|*
+INFO:cooler.create:Finished NW_025791785.1:0-429744|*
+INFO:cooler.create:Binning NW_025791782.1:0-150302|*
+INFO:cooler.create:Binning NW_017852931.1:0-156998|*
+INFO:cooler.create:Finished NW_025791782.1:0-150302|*
+INFO:cooler.create:Binning NW_013171804.1:0-163882|*
+INFO:cooler.create:Finished NW_017852931.1:0-156998|*
+INFO:cooler.create:Binning NW_013171805.1:0-134099|*
+INFO:cooler.create:Finished NW_013171804.1:0-163882|*
+INFO:cooler.create:Finished NW_013171805.1:0-134099|*
+INFO:cooler.create:Binning NW_025791789.1:0-569668|*
+INFO:cooler.create:Binning NW_025791787.1:0-340717|*
+INFO:cooler.create:Finished NW_025791777.1:0-2101585|*
+INFO:cooler.create:Binning NW_021160000.1:0-454963|*
+INFO:cooler.create:Finished NW_025791787.1:0-340717|*
+INFO:cooler.create:Binning NW_011332694.1:0-420164|*
+INFO:cooler.create:Finished NW_021160000.1:0-454963|*
+INFO:cooler.create:Finished NW_025791789.1:0-569668|*
+INFO:cooler.create:Binning NW_021160001.1:0-292944|*
+INFO:cooler.create:Binning NW_013171806.1:0-185507|*
+INFO:cooler.create:Finished NW_013171806.1:0-185507|*
+INFO:cooler.create:Binning NW_009646202.1:0-277797|*
+INFO:cooler.create:Finished NW_011332694.1:0-420164|*
+INFO:cooler.create:Binning NW_011332695.1:0-203552|*
+INFO:cooler.create:Finished NW_021160001.1:0-292944|*
+INFO:cooler.create:Binning NW_021160006.1:0-170928|*
+INFO:cooler.create:Finished NW_011332695.1:0-203552|*
+INFO:cooler.create:Finished NW_021160006.1:0-170928|*
+INFO:cooler.create:Binning NW_019805496.1:0-279644|*
+INFO:cooler.create:Finished NW_009646202.1:0-277797|*
+INFO:cooler.create:Binning NW_021160003.1:0-165419|*
+INFO:cooler.create:Binning NW_013171808.1:0-181958|*
+INFO:cooler.create:Finished NW_021160003.1:0-165419|*
+INFO:cooler.create:Binning NW_011332696.1:0-541038|*
+INFO:cooler.create:Finished NW_013171808.1:0-181958|*
+INFO:cooler.create:Binning NW_009646204.1:0-211377|*
+INFO:cooler.create:Finished NW_019805496.1:0-279644|*
+INFO:cooler.create:Binning NW_018654720.1:0-174808|*
+INFO:cooler.create:Finished NW_009646204.1:0-211377|*
+INFO:cooler.create:Finished NW_018654720.1:0-174808|*
+INFO:cooler.create:Binning NW_019805499.1:0-154139|*
+INFO:cooler.create:Binning NW_021160012.1:0-409912|*
+INFO:cooler.create:Finished NW_019805499.1:0-154139|*
+INFO:cooler.create:Binning NW_011332699.1:0-356766|*
+INFO:cooler.create:Finished NW_011332696.1:0-541038|*
+INFO:cooler.create:Binning NW_013171810.1:0-168146|*
+INFO:cooler.create:Finished NW_021160012.1:0-409912|*
+INFO:cooler.create:Binning NW_009646205.1:0-35455|*
+INFO:cooler.create:Finished NW_013171810.1:0-168146|*
+INFO:cooler.create:Binning NW_021160010.1:0-158944|*
+INFO:cooler.create:Finished NW_009646205.1:0-35455|*
+INFO:cooler.create:Binning NW_021160011.1:0-65394|*
+INFO:cooler.create:Finished NW_011332699.1:0-356766|*
+INFO:cooler.create:Binning NW_021160013.1:0-399183|*
+INFO:cooler.create:Finished NW_021160011.1:0-65394|*
+INFO:cooler.create:Binning NW_018654721.1:0-171798|*
+INFO:cooler.create:Finished NW_021160010.1:0-158944|*
+INFO:cooler.create:Binning NW_021160017.1:0-5500449|*
+INFO:cooler.create:Finished NW_018654721.1:0-171798|*
+INFO:cooler.create:Binning NW_025791798.1:0-204007|*
+INFO:cooler.create:Finished NW_021160013.1:0-399183|*
+INFO:cooler.create:Binning NW_021160016.1:0-369264|*
+INFO:cooler.create:Finished NW_025791798.1:0-204007|*
+INFO:cooler.create:Binning NW_025791797.1:0-1154574|*
+INFO:cooler.create:Finished NW_021160016.1:0-369264|*
+INFO:cooler.create:Binning NW_025791799.1:0-87715|*
+INFO:cooler.create:Finished NW_025791799.1:0-87715|*
+INFO:cooler.create:Binning NW_013171812.1:0-59016|*
+INFO:cooler.create:Finished NW_013171812.1:0-59016|*
+INFO:cooler.create:Binning NW_017852933.1:0-1927115|*
+INFO:cooler.create:Finished NW_025791797.1:0-1154574|*
+INFO:cooler.create:Binning NW_021160019.1:0-270967|*
+INFO:cooler.create:Finished NW_021160019.1:0-270967|*
+INFO:cooler.create:Binning NW_013171813.1:0-267463|*
+INFO:cooler.create:Finished NW_013171813.1:0-267463|*
+INFO:cooler.create:Binning NW_012132921.1:0-169136|*
+INFO:cooler.create:Finished NW_012132921.1:0-169136|*
+INFO:cooler.create:Binning NW_021160020.1:0-137908|*
+INFO:cooler.create:Finished NW_021160020.1:0-137908|*
+INFO:cooler.create:Binning NW_017363819.1:0-276292|*
+INFO:cooler.create:Finished NW_017852933.1:0-1927115|*
+INFO:cooler.create:Binning NW_025791801.1:0-372839|*
+INFO:cooler.create:Finished NW_017363819.1:0-276292|*
+INFO:cooler.create:Binning NW_017363818.1:0-246895|*
+INFO:cooler.create:Finished NW_017363818.1:0-246895|*
+INFO:cooler.create:Binning NW_025791802.1:0-234878|*
+INFO:cooler.create:Finished NW_025791801.1:0-372839|*
+INFO:cooler.create:Binning NW_021160021.1:0-56695|*
+INFO:cooler.create:Finished NW_021160021.1:0-56695|*
+INFO:cooler.create:Binning NW_019805503.1:0-163186|*
+INFO:cooler.create:Finished NW_025791802.1:0-234878|*
+INFO:cooler.create:Binning NW_014040928.1:0-205101|*
+INFO:cooler.create:Finished NW_019805503.1:0-163186|*
+INFO:cooler.create:Binning NW_013171814.1:0-407387|*
+INFO:cooler.create:Finished NW_014040928.1:0-205101|*
+INFO:cooler.create:Binning NW_018654724.1:0-93070|*
+INFO:cooler.create:Finished NW_018654724.1:0-93070|*
+INFO:cooler.create:Binning NW_025791809.1:0-226166|*
+INFO:cooler.create:Finished NW_013171814.1:0-407387|*
+INFO:cooler.create:Binning NW_025791810.1:0-89211|*
+INFO:cooler.create:Finished NW_025791810.1:0-89211|*
+INFO:cooler.create:Finished NW_018654717.1:0-6367528|*
+INFO:cooler.create:Binning NW_025791807.1:0-333754|*
+INFO:cooler.create:Finished NW_025791809.1:0-226166|*
+INFO:cooler.create:Binning NW_021160022.1:0-493165|*
+INFO:cooler.create:Binning NW_014040929.1:0-405389|*
+INFO:cooler.create:Finished NW_025791807.1:0-333754|*
+INFO:cooler.create:Binning NW_009646206.1:0-370917|*
+INFO:cooler.create:Finished NW_014040929.1:0-405389|*
+INFO:cooler.create:Binning NW_025791811.1:0-273725|*
+INFO:cooler.create:Finished NW_021160022.1:0-493165|*
+INFO:cooler.create:Binning NW_021160023.1:0-519485|*
+INFO:cooler.create:Finished NW_009646206.1:0-370917|*
+INFO:cooler.create:Binning NW_025791813.1:0-336752|*
+INFO:cooler.create:Finished NW_025791811.1:0-273725|*
+INFO:cooler.create:Binning NW_021160026.1:0-412368|*
+INFO:cooler.create:Finished NW_021160023.1:0-519485|*
+INFO:cooler.create:Binning NW_021160024.1:0-461303|*
+INFO:cooler.create:Finished NW_025791813.1:0-336752|*
+INFO:cooler.create:Binning NW_017363820.1:0-188004|*
+INFO:cooler.create:Finished NW_021160026.1:0-412368|*
+INFO:cooler.create:Binning NW_021160031.1:0-17435|*
+INFO:cooler.create:Finished NW_021160031.1:0-17435|*
+INFO:cooler.create:Binning NW_021160028.1:0-28824|*
+INFO:cooler.create:Finished NW_017363820.1:0-188004|*
+INFO:cooler.create:Binning NW_021160029.1:0-68192|*
+INFO:cooler.create:Finished NW_021160028.1:0-28824|*
+INFO:cooler.create:Binning NW_025791819.1:0-294119|*
+INFO:cooler.create:Finished NW_021160029.1:0-68192|*
+INFO:cooler.create:Binning NW_009646209.1:0-101150|*
+INFO:cooler.create:Finished NW_021160017.1:0-5500449|*
+INFO:cooler.create:Finished NW_021160024.1:0-461303|*
+INFO:cooler.create:Binning NT_187514.1:0-109528|*
+INFO:cooler.create:Binning NW_003315907.2:0-366580|*
+INFO:cooler.create:Finished NW_009646209.1:0-101150|*
+INFO:cooler.create:Binning NT_187521.1:0-50258|*
+INFO:cooler.create:Finished NT_187514.1:0-109528|*
+INFO:cooler.create:Binning NT_187519.1:0-911658|*
+INFO:cooler.create:Finished NW_025791819.1:0-294119|*
+INFO:cooler.create:Finished NT_187521.1:0-50258|*
+INFO:cooler.create:Binning NT_187516.1:0-425601|*
+INFO:cooler.create:Binning NT_187529.1:0-223625|*
+INFO:cooler.create:Finished NW_003315907.2:0-366580|*
+INFO:cooler.create:Binning NT_187524.1:0-133041|*
+INFO:cooler.create:Finished NT_187529.1:0-223625|*
+INFO:cooler.create:Binning NT_187530.1:0-110395|*
+INFO:cooler.create:Finished NT_187524.1:0-133041|*
+INFO:cooler.create:Finished NT_187516.1:0-425601|*
+INFO:cooler.create:Binning NT_187528.1:0-110099|*
+INFO:cooler.create:Finished NT_187530.1:0-110395|*
+INFO:cooler.create:Binning NW_003315909.1:0-123821|*
+INFO:cooler.create:Binning NT_187527.1:0-174166|*
+INFO:cooler.create:Finished NT_187528.1:0-110099|*
+INFO:cooler.create:Binning NW_003871060.2:0-173151|*
+INFO:cooler.create:Finished NW_003315909.1:0-123821|*
+INFO:cooler.create:Binning NT_187535.1:0-109187|*
+INFO:cooler.create:Finished NT_187527.1:0-174166|*
+INFO:cooler.create:Binning NT_187537.1:0-224108|*
+INFO:cooler.create:Finished NW_003871060.2:0-173151|*
+INFO:cooler.create:Finished NT_187535.1:0-109187|*
+INFO:cooler.create:Binning NW_003315913.1:0-180671|*
+INFO:cooler.create:Finished NT_187519.1:0-911658|*
+INFO:cooler.create:Binning NT_187533.1:0-173649|*
+INFO:cooler.create:Binning NT_187538.1:0-113034|*
+INFO:cooler.create:Finished NT_187537.1:0-224108|*
+INFO:cooler.create:Binning NT_187539.1:0-184404|*
+INFO:cooler.create:Finished NW_003315913.1:0-180671|*
+INFO:cooler.create:Finished NT_187538.1:0-113034|*
+INFO:cooler.create:Finished NT_187533.1:0-173649|*
+INFO:cooler.create:Binning NW_003315915.1:0-376187|*
+INFO:cooler.create:Binning NT_187541.1:0-111943|*
+INFO:cooler.create:Binning NT_167250.2:0-586476|*
+INFO:cooler.create:Finished NT_187539.1:0-184404|*
+INFO:cooler.create:Finished NT_187541.1:0-111943|*
+INFO:cooler.create:Binning NT_187544.1:0-158965|*
+INFO:cooler.create:Binning NW_003315914.1:0-164536|*
+INFO:cooler.create:Finished NT_187544.1:0-158965|*
+INFO:cooler.create:Finished NW_003315915.1:0-376187|*
+INFO:cooler.create:Binning NT_187542.1:0-119912|*
+INFO:cooler.create:Finished NW_003315914.1:0-164536|*
+INFO:cooler.create:Binning NT_187548.1:0-179043|*
+INFO:cooler.create:Binning NW_003571036.1:0-226852|*
+INFO:cooler.create:Finished NT_187542.1:0-119912|*
+INFO:cooler.create:Binning NT_187551.1:0-164558|*
+INFO:cooler.create:Finished NT_187548.1:0-179043|*
+INFO:cooler.create:Finished NT_167250.2:0-586476|*
+INFO:cooler.create:Binning NW_003315918.1:0-101241|*
+INFO:cooler.create:Binning NW_003315919.1:0-173459|*
+INFO:cooler.create:Finished NW_003571036.1:0-226852|*
+INFO:cooler.create:Binning NT_187546.1:0-131892|*
+INFO:cooler.create:Finished NT_187551.1:0-164558|*
+INFO:cooler.create:Finished NW_003315918.1:0-101241|*
+INFO:cooler.create:Binning NT_167244.2:0-4672374|*
+INFO:cooler.create:Binning NT_187556.1:0-870480|*
+INFO:cooler.create:Finished NW_003315919.1:0-173459|*
+INFO:cooler.create:Finished NT_187546.1:0-131892|*
+INFO:cooler.create:Binning NT_187552.1:0-197536|*
+INFO:cooler.create:Binning NT_187558.1:0-157952|*
+INFO:cooler.create:Finished NT_187552.1:0-197536|*
+INFO:cooler.create:Finished NT_187558.1:0-157952|*
+INFO:cooler.create:Binning NT_187561.1:0-209586|*
+INFO:cooler.create:Binning NT_187562.1:0-1111570|*
+INFO:cooler.create:Finished NT_187561.1:0-209586|*
+INFO:cooler.create:Binning NT_187564.1:0-271455|*
+INFO:cooler.create:Finished NT_187556.1:0-870480|*
+INFO:cooler.create:Binning NT_187560.1:0-209988|*
+INFO:cooler.create:Finished NT_187564.1:0-271455|*
+INFO:cooler.create:Binning NT_187576.1:0-985506|*
+INFO:cooler.create:Finished NT_187560.1:0-209988|*
+INFO:cooler.create:Binning NT_187567.1:0-374415|*
+INFO:cooler.create:Finished NT_187562.1:0-1111570|*
+INFO:cooler.create:Binning NT_187574.1:0-133535|*
+INFO:cooler.create:Finished NT_187567.1:0-374415|*
+INFO:cooler.create:Binning NT_187575.1:0-36640|*
+INFO:cooler.create:Finished NT_187575.1:0-36640|*
+INFO:cooler.create:Finished NT_187574.1:0-133535|*
+INFO:cooler.create:Binning NT_187573.1:0-158983|*
+INFO:cooler.create:Binning NT_187571.1:0-305841|*
+INFO:cooler.create:Finished NT_187573.1:0-158983|*
+INFO:cooler.create:Finished NT_187576.1:0-985506|*
+INFO:cooler.create:Binning NT_187569.1:0-132244|*
+INFO:cooler.create:Binning NT_187578.1:0-439082|*
+INFO:cooler.create:Finished NT_187571.1:0-305841|*
+INFO:cooler.create:Finished NT_187569.1:0-132244|*
+INFO:cooler.create:Binning NW_003315934.1:0-179254|*
+INFO:cooler.create:Binning NW_003315935.1:0-309802|*
+INFO:cooler.create:Finished NW_003315934.1:0-179254|*
+INFO:cooler.create:Binning NT_187586.1:0-210133|*
+INFO:cooler.create:Finished NT_187578.1:0-439082|*
+INFO:cooler.create:Binning NT_187585.1:0-296895|*
+INFO:cooler.create:Finished NW_003315935.1:0-309802|*
+INFO:cooler.create:Binning NT_187583.1:0-204059|*
+INFO:cooler.create:Finished NT_187586.1:0-210133|*
+INFO:cooler.create:Binning NW_003315936.1:0-154407|*
+INFO:cooler.create:Finished NT_187583.1:0-204059|*
+INFO:cooler.create:Finished NT_187585.1:0-296895|*
+INFO:cooler.create:Binning NW_003871073.1:0-200998|*
+INFO:cooler.create:Finished NW_003315936.1:0-154407|*
+INFO:cooler.create:Binning NW_003871074.1:0-191409|*
+INFO:cooler.create:Binning NT_187582.1:0-67707|*
+INFO:cooler.create:Finished NT_187582.1:0-67707|*
+INFO:cooler.create:Finished NW_003871073.1:0-200998|*
+INFO:cooler.create:Binning NW_003571049.1:0-167313|*
+INFO:cooler.create:Finished NW_003871074.1:0-191409|*
+INFO:cooler.create:Binning NW_003315939.2:0-169178|*
+INFO:cooler.create:Binning NT_187590.1:0-119498|*
+INFO:cooler.create:Finished NW_003571049.1:0-167313|*
+INFO:cooler.create:Binning NT_187593.1:0-180306|*
+INFO:cooler.create:Finished NW_003315939.2:0-169178|*
+INFO:cooler.create:Finished NT_187590.1:0-119498|*
+INFO:cooler.create:Binning NT_187595.1:0-169134|*
+INFO:cooler.create:Binning NT_187598.1:0-322166|*
+INFO:cooler.create:Finished NT_187593.1:0-180306|*
+INFO:cooler.create:Binning NT_187601.1:0-1511111|*
+INFO:cooler.create:Finished NT_187595.1:0-169134|*
+INFO:cooler.create:Binning NT_187599.1:0-180703|*
+INFO:cooler.create:Finished NT_187598.1:0-322166|*
+INFO:cooler.create:Binning NT_187600.1:0-1351393|*
+INFO:cooler.create:Finished NT_187599.1:0-180703|*
+INFO:cooler.create:Binning NT_187605.1:0-244917|*
+INFO:cooler.create:Finished NT_187605.1:0-244917|*
+INFO:cooler.create:Binning NW_003315944.2:0-388773|*
+INFO:cooler.create:Finished NW_003315944.2:0-388773|*
+INFO:cooler.create:Binning NT_187606.1:0-430880|*
+INFO:cooler.create:Finished NT_187601.1:0-1511111|*
+INFO:cooler.create:Binning NT_187609.1:0-63982|*
+INFO:cooler.create:Finished NT_167244.2:0-4672374|*
+INFO:cooler.create:Finished NT_187600.1:0-1351393|*
+INFO:cooler.create:Binning NT_187607.1:0-2659700|*
+INFO:cooler.create:Finished NT_187609.1:0-63982|*
+INFO:cooler.create:Finished NT_187606.1:0-430880|*
+INFO:cooler.create:Binning NW_003315946.1:0-89672|*
+INFO:cooler.create:Binning NW_003315952.3:0-375691|*
+INFO:cooler.create:Finished NW_003315946.1:0-89672|*
+INFO:cooler.create:Binning NT_187613.1:0-391357|*
+INFO:cooler.create:Binning NT_187614.1:0-2877074|*
+INFO:cooler.create:Finished NC_000015.10:0-101991189|*
+INFO:cooler.create:Finished NW_003315952.3:0-375691|*
+INFO:cooler.create:Binning NW_003871091.1:0-278131|*
+INFO:cooler.create:Finished NT_187613.1:0-391357|*
+INFO:cooler.create:Binning NT_187618.1:0-111737|*
+INFO:cooler.create:Finished NT_187618.1:0-111737|*
+INFO:cooler.create:Finished NW_003871091.1:0-278131|*
+INFO:cooler.create:Binning NW_003315956.1:0-289831|*
+INFO:cooler.create:Binning NW_003315960.1:0-198278|*
+INFO:cooler.create:Binning NW_003315957.1:0-104552|*
+INFO:cooler.create:Finished NW_003315960.1:0-198278|*
+INFO:cooler.create:Finished NW_003315956.1:0-289831|*
+INFO:cooler.create:Finished NW_003315957.1:0-104552|*
+INFO:cooler.create:Binning NW_003315961.1:0-159547|*
+INFO:cooler.create:Binning NT_187622.1:0-61734|*
+INFO:cooler.create:Binning NT_187621.1:0-52969|*
+INFO:cooler.create:Finished NT_187622.1:0-61734|*
+INFO:cooler.create:Finished NW_003315961.1:0-159547|*
+INFO:cooler.create:Binning NW_003315962.1:0-385657|*
+INFO:cooler.create:Finished NT_187621.1:0-52969|*
+INFO:cooler.create:Binning NW_003315963.1:0-155864|*
+INFO:cooler.create:Binning NT_187623.1:0-118774|*
+INFO:cooler.create:Finished NW_003315963.1:0-155864|*
+INFO:cooler.create:Finished NT_187623.1:0-118774|*
+INFO:cooler.create:Binning NT_187625.1:0-58661|*
+INFO:cooler.create:Finished NW_003315962.1:0-385657|*
+INFO:cooler.create:Binning NW_003315967.2:0-63917|*
+INFO:cooler.create:Finished NT_187625.1:0-58661|*
+INFO:cooler.create:Binning NT_187628.1:0-166743|*
+INFO:cooler.create:Finished NW_003315967.2:0-63917|*
+INFO:cooler.create:Binning NT_187627.1:0-143900|*
+INFO:cooler.create:Binning NW_003315969.2:0-74653|*
+INFO:cooler.create:Finished NT_187628.1:0-166743|*
+INFO:cooler.create:Finished NT_187627.1:0-143900|*
+INFO:cooler.create:Binning NW_003315970.2:0-116689|*
+INFO:cooler.create:Finished NW_003315969.2:0-74653|*
+INFO:cooler.create:Binning NT_187629.1:0-259914|*
+INFO:cooler.create:Finished NW_003315970.2:0-116689|*
+INFO:cooler.create:Binning NT_187632.1:0-186262|*
+INFO:cooler.create:Binning NT_187633.1:0-304135|*
+INFO:cooler.create:Finished NT_187629.1:0-259914|*
+INFO:cooler.create:Finished NT_187607.1:0-2659700|*
+INFO:cooler.create:Finished NT_187632.1:0-186262|*
+INFO:cooler.create:Binning NT_187630.1:0-263666|*
+INFO:cooler.create:Binning NT_187631.1:0-101331|*
+INFO:cooler.create:Binning NT_187634.1:0-284869|*
+INFO:cooler.create:Finished NT_187633.1:0-304135|*
+INFO:cooler.create:Finished NT_187631.1:0-101331|*
+INFO:cooler.create:Binning NT_187648.1:0-214158|*
+INFO:cooler.create:Finished NT_187630.1:0-263666|*
+INFO:cooler.create:Finished NT_187614.1:0-2877074|*
+INFO:cooler.create:Binning NT_187649.1:0-162896|*
+INFO:cooler.create:Finished NT_187634.1:0-284869|*
+INFO:cooler.create:Binning NT_113891.3:0-4795265|*
+INFO:cooler.create:Finished NT_187648.1:0-214158|*
+INFO:cooler.create:Binning NT_187653.1:0-190869|*
+INFO:cooler.create:Finished NT_187649.1:0-162896|*
+INFO:cooler.create:Binning NT_187655.1:0-136959|*
+INFO:cooler.create:Binning NT_187654.1:0-318687|*
+INFO:cooler.create:Finished NT_187653.1:0-190869|*
+INFO:cooler.create:Finished NT_187655.1:0-136959|*
+INFO:cooler.create:Binning NT_187658.1:0-572349|*
+INFO:cooler.create:Binning NT_187665.1:0-174061|*
+INFO:cooler.create:Finished NT_187654.1:0-318687|*
+INFO:cooler.create:Binning NT_187678.1:0-166540|*
+INFO:cooler.create:Finished NT_187665.1:0-174061|*
+INFO:cooler.create:Binning NT_167246.2:0-4677643|*
+INFO:cooler.create:Finished NT_187678.1:0-166540|*
+INFO:cooler.create:Binning NT_167247.2:0-4827813|*
+INFO:cooler.create:Finished NT_187658.1:0-572349|*
+INFO:cooler.create:Binning NT_187690.1:0-164170|*
+INFO:cooler.create:Binning NT_167248.2:0-4606388|*
+INFO:cooler.create:Finished NT_187690.1:0-164170|*
+INFO:cooler.create:Binning NT_187691.1:0-165607|*
+INFO:cooler.create:Finished NT_187691.1:0-165607|*
+INFO:cooler.create:Binning NT_167249.2:0-4929269|*
+INFO:cooler.create:Finished NT_167246.2:0-4677643|*
+INFO:cooler.create:Finished NT_167247.2:0-4827813|*
+INFO:cooler.create:Binning NW_003571060.1:0-987100|*
+INFO:cooler.create:Finished NT_167248.2:0-4606388|*
+INFO:cooler.create:Binning NC_012920.1:0-16569|*
+INFO:cooler.create:Finished NC_012920.1:0-16569|*
+INFO:cooler.create:Finished NT_167249.2:0-4929269|*
+INFO:cooler.create:Finished NT_113891.3:0-4795265|*
+INFO:cooler.create:Finished NW_003571060.1:0-987100|*
+INFO:cooler.create:Finished NC_000022.11:0-50818468|*
+INFO:cooler.create:Finished NC_000024.10:0-57227415|*
+INFO:cooler.create:Finished NC_000023.11:0-156040895|*
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
