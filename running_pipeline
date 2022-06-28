@@ -73,4 +73,67 @@ Calculating norms for zoom BP_1000Killed
 
 #  /home/user/Downloads/microc_summer2022/pairix
 
+#generating single resolution contact map files
+#input
+cooler cload pairix -p 8 /home/user/Downloads/microc_summer2022/juicer/references/GRCh38_latest_genomic.genome:1000 mapped.pairs.gz matrix_1kb.cool
+
+#output
+INFO:cooler.cli.cload:Using 8 cores
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/create/_ingest.py:830: UserWarning: Did not find contig  'NT_187365.1' in contact list file.
+  warnings.warn(
+
+INFO:cooler.create:Finished NT_167246.2:0-4677643|*
+INFO:cooler.create:Finished NT_167247.2:0-4827813|*
+INFO:cooler.create:Binning NW_003571060.1:0-987100|*
+INFO:cooler.create:Finished NT_167248.2:0-4606388|*
+INFO:cooler.create:Binning NC_012920.1:0-16569|*
+INFO:cooler.create:Finished NC_012920.1:0-16569|*
+INFO:cooler.create:Finished NT_167249.2:0-4929269|*
+INFO:cooler.create:Finished NT_113891.3:0-4795265|*
+INFO:cooler.create:Finished NW_003571060.1:0-987100|*
+INFO:cooler.create:Finished NC_000022.11:0-50818468|*
+INFO:cooler.create:Finished NC_000024.10:0-57227415|*
+INFO:cooler.create:Finished NC_000023.11:0-156040895|*
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+
+
+
+
+#generating multi-resoulations files and visualizing the contact matrix
+#input
+cooler zoomify --balance -p 16 matrix_1kb.cool
+
+#output
+INFO:cooler.cli.zoomify:Recursively aggregating "matrix_1kb.cool"
+INFO:cooler.cli.zoomify:Writing to "matrix_1kb.mcool"
+INFO:cooler.reduce:Copying base matrices and producing 14 new zoom levels.
+INFO:cooler.reduce:Bin size: 1000
+INFO:cooler.reduce:Aggregating from 1000 to 2000.
+WARNING:py.warnings:/home/user/miniconda3/lib/python3.9/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "matrix_1kb.mcool::/resolutions/2000"
+
+INFO:cooler.balance:variance is 0.0015265366635372072
+INFO:cooler.balance:variance is 0.0010809795637038697
+INFO:cooler.balance:variance is 0.0007654064694814897
+INFO:cooler.balance:variance is 0.0005419971927075387
+INFO:cooler.balance:variance is 0.0003837750520548716
+INFO:cooler.balance:variance is 0.00027175520760574573
+INFO:cooler.balance:variance is 0.00019242485326014693
+INFO:cooler.balance:variance is 0.00013625725430734025
+INFO:cooler.balance:variance is 9.648181540946352e-05
+INFO:cooler.balance:variance is 6.831908661662749e-05
+INFO:cooler.balance:variance is 4.837597043362445e-05
+INFO:cooler.balance:variance is 3.42550766782163e-05
+INFO:cooler.balance:variance is 2.4255702894125073e-05
+INFO:cooler.balance:variance is 1.7175452137628492e-05
+INFO:cooler.balance:variance is 1.2161804255514934e-05
+INFO:cooler.balance:variance is 8.61175489217223e-06
+
+
 
