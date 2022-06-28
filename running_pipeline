@@ -5,43 +5,72 @@
 
 trim_galore --paired <$filename>_R1.fastq <$filename>_R2.fastq
 
-#running bwa to produce index files from the reference genome
+##running bwa to produce index files from the reference genome
 
-#running bwa mem to perform local alignment
+## running bwa mem to perform local alignment
 bwa mem -5SP -T0 -t8 ./juicer/references/GRCh38_latest_genomic.fasta ./EC1_S1_L001_R1_001_val_1.fq.gz ./EC1_S1_L001_R2_001_val_2.fq.gz -o aligned.sam
 
 #parsing to identify high quality valid pairs over low quality events
 pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path /home/user/Downloads/microc_summer2022/juicer/references/GRCh38_latest_genomic.genome /home/user/Downloads/microc_summer2022/aligned.sam > parsed.pairsam
 
-#sorting pairsam file
+##sorting pairsam file
 pairtools sort --nproc 8 --tmpdir=/home/user/temp/ parsed.pairsam > sorted.pairsam 
 
-#removing pcr duplicates
+# remove pcr duplicates
 pairtools dedup --nproc-in 4 --nproc-out 4 --mark-dups --output-stats stats.txt --output dedup.pairsam sorted.pairsam
-##checking stats file
+## Checking stats file
 python3 ./Micro-C/get_qc.py -p stats.txt
-###output
-###Total Read Pairs                              4,584,748  100%
-###Unmapped Read Pairs                           324,321    7.07%
-###Mapped Read Pairs                             3,127,043  68.21%
-###PCR Dup Read Pairs                            133,760    2.92%
-###No-Dup Read Pairs                             2,993,283  65.29%
-###No-Dup Cis Read Pairs                         2,158,013  72.1%
-###No-Dup Trans Read Pairs                       835,270    27.9%
-###No-Dup Valid Read Pairs (cis >= 1kb + trans)  2,462,015  82.25%
-###No-Dup Cis Read Pairs < 1kb                   531,268    17.75%
-###No-Dup Cis Read Pairs >= 1kb                  1,626,745  54.35%
-###No-Dup Cis Read Pairs >= 10kb                 1,327,137  44.34%
+##output
+#Total Read Pairs                              4,584,748  100%
+#Unmapped Read Pairs                           324,321    7.07%
+#Mapped Read Pairs                             3,127,043  68.21%
+#PCR Dup Read Pairs                            133,760    2.92%
+#No-Dup Read Pairs                             2,993,283  65.29%
+#No-Dup Cis Read Pairs                         2,158,013  72.1%
+#No-Dup Trans Read Pairs                       835,270    27.9%
+#No-Dup Valid Read Pairs (cis >= 1kb + trans)  2,462,015  82.25%
+#No-Dup Cis Read Pairs < 1kb                   531,268    17.75%
+#No-Dup Cis Read Pairs >= 1kb                  1,626,745  54.35%
+#No-Dup Cis Read Pairs >= 10kb                 1,327,137  44.34%
 
-#generating .pairs and .bam files
+## generating .pairs and .bam files
 pairtools split --nproc-in 4 --nproc-out 4 --output-pairs mapped.pairs --output-sam unsorted.bam dedup.pairsam
 
-#sorting .bam file
+## Sorting .bam file
 samtools sort -@8 -T /home/user/temp/temp.bam -o mapped.PT.bam unsorted.bam
 
-#indexing .bam file
+## indexing .bam file
 samtools index mapped.PT.bam
 
 
-# /home/user/Downloads/microc_summer2022/juicer/scripts/juicer_tools.jar
+#making hi-c matrices input
+java -Xmx48000m  -Djava.awt.headless=true -jar /home/user/Downloads/microc_summer2022/juicer/scripts/juicer_tools.jar pre --threads 8 mapped.pairs contact_map.hic /home/user/Downloads/microc_summer2022/juicer/references/GRCh38_latest_genomic.genome
+
+
+#making hi-c matrices output
+WARN [2022-06-27T15:48:35,700]  [Globals.java:138] [main]  Development mode is enabled
+Using 8 CPU thread(s)
+Not including fragment map
+Start preprocess
+Writing header
+Writing body
+
+
+Writing footer
+
+Finished preprocess
+
+Calculating norms for zoom BP_2500000
+Calculating norms for zoom BP_1000000
+Calculating norms for zoom BP_500000
+Calculating norms for zoom BP_250000
+Calculating norms for zoom BP_100000
+Calculating norms for zoom BP_50000
+Calculating norms for zoom BP_25000
+Calculating norms for zoom BP_10000
+Calculating norms for zoom BP_5000
+Calculating norms for zoom BP_1000Killed
+
+#  /home/user/Downloads/microc_summer2022/pairix
+
 
