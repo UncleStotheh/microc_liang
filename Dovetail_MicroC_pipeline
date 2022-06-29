@@ -15,6 +15,14 @@
 #python3
 #pip3
 
+# Install other dependencies:
+
+#juicer
+#trim galore
+#
+
+
+
 # On Ubuntu/Linux system clone the git repository:
 git clone https://github.com/dovetail-genomics/Micro-C.git
 # Run installation script
@@ -22,15 +30,15 @@ git clone https://github.com/dovetail-genomics/Micro-C.git
 
 # Once installation is complete close and reopen terminal
 
-# Gather data sets: here are samples you can work from
+# Gather data sets:
 
-## 2 fastq files R1 and R2 (fastq.gz is also acceptable
-wget https://s3.amazonaws.com/dovetail.pub/HiC/fastqs/MicroC_2M_R1.fastq
-wget https://s3.amazonaws.com/dovetail.pub/HiC/fastqs/MicroC_2M_R2.fastq
+## 2 fastq files R1 and R2 (fastq.gz is also acceptable)
 ## We worked with sample data from Yong: find R1/R2 in microsoft teams
+## Clean up of sample data with trim galore
+trim_galore --paired ./EC1_S1_L001_R1_001.fastq.gz ./EC1_S1_L001_R2_001.fastq.gz # Run in same directory as files
 
 ## Reference genome from UCSC: 
-wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz #Stored in ./juicer/references
 
 ##### Pre-Alignment: 
 
@@ -48,7 +56,15 @@ cut -f1,2 hg38.fasta.fai > hg38.genome
 bwa index hg38.fasta
 
 # Create a temporary directory to avoid running into memory issues in later steps
-mkdir /home/user/ebs/temp
+mkdir /home/user/temp
+
+##### Alignment: From fastq to final valid pairs bam file
+
+# Align your files to reference genome
+## Change directory to location of files
+cd /home/user/Downloads/microc_summer2022
+## Align 
+bwa mem -5SP -T0 -t16 ./juicer/references/hg38.fasta R1.fastq R2.fastq -o aligned.sam
 
 
 
