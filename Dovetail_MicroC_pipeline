@@ -1,0 +1,18 @@
+# Install dependencies: 
+
+#pysam
+#tabulate
+#bedtools
+#deeptools
+#matplotlib
+#pandas
+#bwa
+#pairtools
+#samtools
+#preseq
+#python3
+#pip3
+
+# MicroC option 
+
+git clone https://github.com/dovetail-genomics/Micro-C.git
