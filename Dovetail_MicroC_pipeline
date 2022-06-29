@@ -1,3 +1,5 @@
+##### Before you begin
+
 # Install dependencies: 
 
 #pysam
@@ -13,6 +15,40 @@
 #python3
 #pip3
 
-# MicroC option 
-
+# On Ubuntu/Linux system clone the git repository:
 git clone https://github.com/dovetail-genomics/Micro-C.git
+# Run installation script
+./Micro-C/installDep.sh
+
+# Once installation is complete close and reopen terminal
+
+# Gather data sets: here are samples you can work from
+
+## 2 fastq files R1 and R2 (fastq.gz is also acceptable
+wget https://s3.amazonaws.com/dovetail.pub/HiC/fastqs/MicroC_2M_R1.fastq
+wget https://s3.amazonaws.com/dovetail.pub/HiC/fastqs/MicroC_2M_R2.fastq
+## We worked with sample data from Yong: find R1/R2 in microsoft teams
+
+## Reference genome from UCSC: 
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
+
+##### Pre-Alignment: 
+
+# Generate an index file for your reference (a reference file with only the main chromosomes should be used)
+## Convert downloaded genome to the correct .fasta format
+gunzip hg38.fa.gz
+cp hg38.fa hg38.fasta
+## Generate index file
+samtools faidx hg38.fa.gz
+
+# Use the index file to generate the genome file by printing the first two columns into a new file
+cut -f1,2 hg38.fasta.fai > hg38.genome
+
+# Prior to alignment, generate a bwa index file for the chosen reference genome
+bwa index hg38.fasta
+
+# Create a temporary directory to avoid running into memory issues in later steps
+mkdir /home/user/ebs/temp
+
+
+
