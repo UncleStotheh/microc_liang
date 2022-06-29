@@ -157,4 +157,7 @@ INFO:cooler.balance:variance is 1.2161804255514934e-05
 INFO:cooler.balance:variance is 8.61175489217223e-06
 
 
+##making higlass work by adding docker user to shell
+sudo gpasswd -a user docker
+newgrp docker
 
