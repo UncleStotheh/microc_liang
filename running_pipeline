@@ -73,9 +73,28 @@ Calculating norms for zoom BP_10000
 Calculating norms for zoom BP_5000
 Calculating norms for zoom BP_1000Killed
 
-#  /home/user/Downloads/microc_summer2022/pairix
+# Install cooler and its dependencies
+##libhdf5 - sudo apt-get install libhdf5-dev
+##h5py - pip3 install h5py
+##cooler - pip3 install cooler
 
-#generating single resolution contact map files
+# Install pairix
+##git clone https://github.com/4dn-dcic/pairix
+##cd pairix
+##make
+
+Add the bin path, and utils path to PATH and exit the folder
+PATH=/home/user/Downloads/microc_summer2022/pairix/bin/:/home/user/Downloads/microc_summer2022/pairix/util:/home/user/Downloads/microc_summer2022/pairix:$PATH
+cd ..
+
+# Make sure mapped.pairs is in the correct format
+bgzip mapped.pairs
+
+# Index the mapped.pairs file
+pairix mapped.pairs.gz
+
+
+# Generating single resolution contact map files
 #input
 cooler cload pairix -p 8 /home/user/Downloads/microc_summer2022/juicer/references/GRCh38_latest_genomic.genome:1000 mapped.pairs.gz matrix_1kb.cool
 
