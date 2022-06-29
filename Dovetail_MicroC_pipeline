@@ -130,7 +130,7 @@ samtools sort -@8 -T /home/user/temp/temp.bam -o mapped.PT.bam unsorted.bam
 samtools index mapped.PT.bam
 
 ####### This process can be simplified to avoid the generation of intermediate files using the following command: 
-bwa mem -5SP -T0 -t8 ./juicer/references/hg38.fasta ./EC1_S1_L001_R1_001_val_1.fq.gz ./EC1_S1_L001_R2_001_val_2.fq.gz | pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path ./juicer/references/hg38.genome | pairtools sort --tmpdir=/home/ubuntu/ebs/temp/ --nproc 16|pairtools dedup --nproc-in 8 --nproc-out 8 --mark-dups --output-stats stats.txt|pairtools split --nproc-in 8 --nproc-out 8 --output-pairs mapped.pairs --output-sam -|samtools view -bS -@16 | samtools sort -@16 -o mapped.PT.bam;samtools index mapped.PT.bam
+bwa mem -5SP -T0 -t8 ./juicer/references/hg38.fasta ./EC1_S1_L001_R1_001_val_1.fq.gz ./EC1_S1_L001_R2_001_val_2.fq.gz | pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path ./juicer/references/hg38.genome | pairtools sort --tmpdir=/home/user/temp/ --nproc 8|pairtools dedup --nproc-in 4 --nproc-out 4 --mark-dups --output-stats stats.txt|pairtools split --nproc-in 8 --nproc-out 8 --output-pairs mapped.pairs --output-sam -|samtools view -bS -@8 | samtools sort -@8 -o mapped.PT.bam;samtools index mapped.PT.bam
 
 
 
