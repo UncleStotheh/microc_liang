@@ -98,19 +98,39 @@ pairtools dedup --nproc-in 4 --nproc-out 4 --mark-dups --output-stats stats.txt 
 ### --output dedup.pairsam : 
 #### Checking stats.txt to see duplicate analysis:
 python3 ./Micro-C/get_qc.py -p stats.txt
-Total Read Pairs                              4,584,748  100%
-Unmapped Read Pairs                           266,576    5.81%
-Mapped Read Pairs                             3,224,298  70.33%
-PCR Dup Read Pairs                            137,730    3.0%
-No-Dup Read Pairs                             3,086,568  67.32%
-No-Dup Cis Read Pairs                         2,213,055  71.7%
-No-Dup Trans Read Pairs                       873,513    28.3%
-No-Dup Valid Read Pairs (cis >= 1kb + trans)  2,549,852  82.61%
-No-Dup Cis Read Pairs < 1kb                   536,716    17.39%
-No-Dup Cis Read Pairs >= 1kb                  1,676,339  54.31%
-No-Dup Cis Read Pairs >= 10kb                 1,370,180  44.39%
+##Total Read Pairs                              4,584,748  100%
+##Unmapped Read Pairs                           266,576    5.81%
+##Mapped Read Pairs                             3,224,298  70.33% # Better than 1st run with GRCh38 genome; but still lower than we expected
+##PCR Dup Read Pairs                            137,730    3.0%
+##No-Dup Read Pairs                             3,086,568  67.32%
+##No-Dup Cis Read Pairs                         2,213,055  71.7%
+##No-Dup Trans Read Pairs                       873,513    28.3%
+##No-Dup Valid Read Pairs (cis >= 1kb + trans)  2,549,852  82.61%
+##No-Dup Cis Read Pairs < 1kb                   536,716    17.39%
+##No-Dup Cis Read Pairs >= 1kb                  1,676,339  54.31%
+##No-Dup Cis Read Pairs >= 10kb                 1,370,180  44.39%
 
+# Split files to .pairs and .bam (sam)
+## use the pairtools split command is used to split the final .pairsam into two files
+###.pairsam has two extra columns containing the alignments from which the Micro-C pair was extracted which are not included in .pairs files
+pairtools split --nproc-in 4 --nproc-out 4 --output-pairs mapped.pairs --output-sam unsorted.bam dedup.pairsam
+#### --nproc-in 4 : 
+#### --nproc-out 4 : 
+#### --output-pairs :
+#### --output-sam : 
 
+# Generating the final .bam file
+## bam file should be sorted using samtools prior to downstream steps
+samtools sort -@8 -T /home/user/temp/temp.bam -o mapped.PT.bam unsorted.bam
+### -@8 : 
+### -T : 
+
+# Generating indexed .bai file for downstream steps
+##indexing .bam file
+samtools index mapped.PT.bam
+
+####### This process can be simplified to avoid the generation of intermediate files using the following command: 
+bwa mem -5SP -T0 -t8 ./juicer/references/hg38.fasta ./EC1_S1_L001_R1_001_val_1.fq.gz ./EC1_S1_L001_R2_001_val_2.fq.gz | pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path ./juicer/references/hg38.genome | pairtools sort --tmpdir=/home/ubuntu/ebs/temp/ --nproc 16|pairtools dedup --nproc-in 8 --nproc-out 8 --mark-dups --output-stats stats.txt|pairtools split --nproc-in 8 --nproc-out 8 --output-pairs mapped.pairs --output-sam -|samtools view -bS -@16 | samtools sort -@16 -o mapped.PT.bam;samtools index mapped.PT.bam
 
 
 
