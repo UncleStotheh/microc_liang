@@ -1,0 +1,2 @@
+##installing keyring for cuda
+sudo apt-key add /var/cuda-repo-ubuntu2004-11-7-local/15CCF53C.pub
