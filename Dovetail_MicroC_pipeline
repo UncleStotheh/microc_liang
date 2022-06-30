@@ -144,9 +144,51 @@ java -Xmx48000m  -Djava.awt.headless=true -jar ./juicer/scripts/juicer_tools.jar
 ### -jar : 
 ### pre
 ### --threads 8
-#### Visualize .hic with 
+#### Visualize .hic with Juicebox
+#### https://www.aidenlab.org/juicebox/
 
 
+##### Generating cooler contact maps
 
+# Install cooler and its dependencies
+##libhdf5 - sudo apt-get install libhdf5-dev
+##h5py - pip3 install h5py
+##cooler - pip3 install cooler
 
+# Install pairix
+##git clone https://github.com/4dn-dcic/pairix
+##cd pairix
+##make
+
+# Add the bin path, and utils path to PATH and exit the folder
+PATH=/home/user/Downloads/microc_summer2022/pairix/bin/:/home/user/Downloads/microc_summer2022/pairix/util:/home/user/Downloads/microc_summer2022/pairix:$PATH
+cd ..
+
+# Make sure mapped.pairs is in the correct format
+bgzip mapped.pairs
+
+# Index the mapped.pairs file
+pairix mapped.pairs.gz
+
+# Generating single resolution contact map files (.cool)
+cooler cload pairix -p 8 ./juicer/references/hg38.genome:1000 mapped.pairs.gz matrix_1kb.cool
+
+# Generating multi resolution contact map files (.mcool) - best practice for visualizing the matrix
+cooler zoomify --balance -p 16 matrix_1kb.cool
+
+##### Use HiGlass to visualize the matrix
+
+# Install dependencies
+##pip install higlass-manage
+
+# View data set - one step 
+higlass-manage view matrix_1kb.mcool
+
+# View data set - step by step
+## Start a higlass instance
+higlass-manage start
+## Add data
+higlass-manage ingest matrix_1kb.mcool
+## View the data
+higlass-manage browse
 
