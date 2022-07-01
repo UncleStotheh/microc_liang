@@ -190,7 +190,8 @@ cooler zoomify --balance -p 16 matrix_1kb.cool
 ##pip install higlass-manage
 
 # Set permissions
-
+sudo gpasswd -a user docker
+newgrp docker
 
 # View data set - step by step
 ## Start a higlass instance
