@@ -100,17 +100,17 @@ pairtools dedup --nproc-in 4 --nproc-out 4 --mark-dups --output-stats stats.txt 
 ### --output dedup.pairsam : 
 #### Checking stats.txt to see duplicate analysis:
 python3 ./Micro-C/get_qc.py -p stats.txt
-Total Read Pairs                              4,584,748  100%
-Unmapped Read Pairs                           214,431    4.68%
-Mapped Read Pairs                             3,314,016  72.28%
-PCR Dup Read Pairs                            141,402    3.08%
-No-Dup Read Pairs                             3,172,614  69.2%
-No-Dup Cis Read Pairs                         2,261,244  71.27%
-No-Dup Trans Read Pairs                       911,370    28.73%
-No-Dup Valid Read Pairs (cis >= 1kb + trans)  2,630,835  82.92%
-No-Dup Cis Read Pairs < 1kb                   541,779    17.08%
-No-Dup Cis Read Pairs >= 1kb                  1,719,465  54.2%
-No-Dup Cis Read Pairs >= 10kb                 1,407,252  44.36%
+##Total Read Pairs                              4,584,748  100%
+##Unmapped Read Pairs                           214,431    4.68%
+##Mapped Read Pairs                             3,314,016  72.28%
+##PCR Dup Read Pairs                            141,402    3.08%
+##No-Dup Read Pairs                             3,172,614  69.2%
+##No-Dup Cis Read Pairs                         2,261,244  71.27%
+##No-Dup Trans Read Pairs                       911,370    28.73%
+##No-Dup Valid Read Pairs (cis >= 1kb + trans)  2,630,835  82.92%
+##No-Dup Cis Read Pairs < 1kb                   541,779    17.08%
+##No-Dup Cis Read Pairs >= 1kb                  1,719,465  54.2%
+##No-Dup Cis Read Pairs >= 10kb                 1,407,252  44.36%
 
 
 # Split files to .pairs and .bam (sam)
