@@ -1,3 +1,5 @@
+# https://micro-c.readthedocs.io/en/latest/before_you_begin.html - link to Dovetail Micro-C tutorial that we followed
+
 ##### Before you begin
 
 # Install dependencies: 
@@ -197,6 +199,3 @@ higlass-manage start
 higlass-manage ingest matrix_1kb.mcool
 ## View the data
 higlass-manage browse
-
-
-
