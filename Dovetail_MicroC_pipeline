@@ -77,7 +77,9 @@ bwa mem -5SP -T0 -t8 ./juicer/references/hg38.fasta ./EC1_S1_L001_R1_001_val_1.f
 ### -o :
 
 # Use parse module of pairtools to organize ligation events into a .pairsam file
-## 
+## Identifies ligation events and records the outer-most (5’) aligned base pair and the strand of each one of the paired reads into .pairsam file
+## It will also asign a pair type for each event. 
+###For example: if both reads aligned uniquely to only one region in the genome, the type UU (Unique-Unique) will be assigned
 pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path ./juicer/references/hg38.genome ./aligned.sam > parsed.pairsam
 ### --min-mapq 40 :
 ### --walks-policy 5unique :
