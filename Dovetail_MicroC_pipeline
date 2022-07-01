@@ -37,6 +37,7 @@ git clone https://github.com/dovetail-genomics/Micro-C.git
 ## We worked with sample data from Yong: find R1/R2 in microsoft teams
 ## Clean up of sample data with trim galore
 trim_galore --paired ./EC1_S1_L001_R1_001.fastq.gz ./EC1_S1_L001_R2_001.fastq.gz # Run in same directory as files
+### take a look at the trimming reports associated with this step
 
 ## Reference genome from UCSC: 
 wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/analysisSet/hg38.analysisSet.fa.gz #Stored in ./juicer/references
