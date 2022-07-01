@@ -193,4 +193,5 @@ higlass-manage start
 higlass-manage ingest matrix_1kb.mcool
 ## View the data
 higlass-manage browse
-
+###link to visualize contact map on higlass
+http://localhost:8989/app
