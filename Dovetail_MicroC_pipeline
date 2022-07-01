@@ -149,6 +149,8 @@ java -Xmx48000m  -Djava.awt.headless=true -jar ./juicer/scripts/juicer_tools.jar
 #### Visualize .hic with Juicebox
 #### https://www.aidenlab.org/juicebox/
 
+## .hic file is under Micro-C folder in teams if you want to look at it
+
 
 ##### Generating cooler contact maps
 
@@ -193,5 +195,6 @@ higlass-manage start
 higlass-manage ingest matrix_1kb.mcool
 ## View the data
 higlass-manage browse
-###link to visualize contact map on higlass
-http://localhost:8989/app
+
+
+
