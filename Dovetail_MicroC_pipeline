@@ -24,7 +24,7 @@
 #trim galore
 #cuda
 #juicer_tools
-#
+
 
 
 
@@ -183,6 +183,10 @@ cooler cload pairix -p 8 ./juicer/references/hg38.genome:1000 mapped.pairs.gz ma
 
 # Generating multi resolution contact map files (.mcool) - best practice for visualizing the matrix
 cooler zoomify --balance -p 16 matrix_1kb.cool
+
+
+## .mcool file is under Micro-C folder in teams if you want to look at it
+
 
 ##### Use HiGlass to visualize the matrix
 
