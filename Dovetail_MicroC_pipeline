@@ -204,3 +204,7 @@ higlass-manage ingest matrix_1kb.mcool
 ## View the data
 # higlass-manage browse ** Tutorial uses this, but it didn't work for us
 # Instead go to local web browser and upload file after ingesting it http://localhost:8989/app
+
+
+####running juicer
+bash ./CPU/juicer.sh -g hg38 -s none -S early -i run3 -D /home/user/Downloads/microc_summer2022/juicer -t 8 -T 8 --cleanup
