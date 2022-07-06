@@ -212,6 +212,14 @@ bash /home/user/Downloads/microc_summer2022/juicer/CPU/juicer.sh -g hg38 -s none
 
 
 
+CMD: bwa mem -K 320000000 -SP5M -t 8 -R @RG\tID:EC1_S1_L001_001_val_1\tSM:run3\tPL:ILM\tLB:HiC_library /home/user/Downloads/microc_summer2022/juicer/references/hg38/hg38.fa /home/user/Downloads/microc_summer2022/juicer/splits/EC1_S1_L001_R1_001_val_1.fastq.gz /home/user/Downloads/microc_summer2022/juicer/splits/EC1_S1_L001_R2_001_val_1.fastq.gz
+[main] Real time: 774.061 sec; CPU: 6110.779 sec
+(-:  Align of /home/user/Downloads/microc_summer2022/juicer/splits/EC1_S1_L001_001_val_1.fastq.gz.sam done successfully
+awk: /home/user/Downloads/microc_summer2022/juicer/scripts/common/chimeric_sam.awk: line 50: illegal reference to local variable array
+awk: /home/user/Downloads/microc_summer2022/juicer/scripts/common/chimeric_sam.awk: line 51: illegal reference to local variable array
+awk: /home/user/Downloads/microc_summer2022/juicer/scripts/common/chimeric_sam.awk: line 164: syntax error at or near [
+samtools sort: failed to read header from "-"
+***! Failure during chimera handling of /home/user/Downloads/microc_summer2022/juicer/splits/EC1_S1_L001_001_val_1.fastq.gz
 
 
 
