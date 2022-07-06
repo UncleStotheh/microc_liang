@@ -73,7 +73,7 @@ bwa mem -5SP -T0 -t8 ./juicer/references/hg38.fasta ./EC1_S1_L001_R1_001_val_1.f
 ### -S :
 ### -P :
 ### -T0 :
-### -t8 :
+### -t8 : Set the number of threads available to 8; (Run lscpu and multiply multiply Thread(s) per core x Core(s) per socket x Socket(s))
 ### -o :
 
 # Use parse module of pairtools to organize ligation events into a .pairsam file
