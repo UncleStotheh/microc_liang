@@ -81,7 +81,7 @@ bwa mem -5SP -T0 -t8 ./juicer/references/hg38.fasta ./EC1_S1_L001_R1_001_val_1.f
 ## It will also asign a pair type for each event. 
 ###For example: if both reads aligned uniquely to only one region in the genome, the type UU (Unique-Unique) will be assigned
 pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --chroms-path ./juicer/references/hg38.genome ./aligned.sam > parsed.pairsam
-### --min-mapq 40 :
+### --min-mapq 40 :~/Downloads/microc_summer2022/juicer/
 ### --walks-policy 5unique :
 ### --max-inter-align-gap 30 : 
 ### --chroms-path : specify path to the reference genome
@@ -180,7 +180,7 @@ pairix mapped.pairs.gz
 cooler cload pairix -p 8 ./juicer/references/hg38.genome:1000 mapped.pairs.gz matrix_1kb.cool
 
 # Generating multi resolution contact map files (.mcool) - best practice for visualizing the matrix
-cooler zoomify --balance -p 16 matrix_1kb.cool
+cooler zoomify --balance -p 16 matrix_1kb.cool~/Downloads/microc_summer2022/juicer/
 
 
 ## .mcool file is under Micro-C folder in teams if you want to look at it
@@ -207,4 +207,25 @@ higlass-manage ingest matrix_1kb.mcool
 
 
 ####running juicer
-bash ./CPU/juicer.sh -g hg38 -s none -S early -i run3 -D /home/user/Downloads/microc_summer2022/juicer -t 8 -T 8 --cleanup
+bash /home/user/Downloads/microc_summer2022/juicer/CPU/juicer.sh -g hg38 -s none -S early -i run3 -D /home/user/Downloads/microc_summer2022/juicer/ -t 8 -T 8 --cleanup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
